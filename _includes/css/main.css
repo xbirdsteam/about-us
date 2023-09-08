@@ -64,7 +64,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: #242424;
 }
 
 hr.star-primary {
@@ -83,7 +83,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #242424;
 }
 
 header .container {
@@ -116,7 +116,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 3.75em;
+        font-size: 3.0em;
     }
 
     header .intro-text .skills {
@@ -473,7 +473,7 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: ##000000 !important;
 }
 
 /* Fix modal mouse wheel issues */
