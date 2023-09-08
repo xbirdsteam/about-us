@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.hovercl }};
 }
 
 h1,
@@ -66,6 +66,12 @@ hr.star-light:after {
     color: #fff;
     background-color: #242424;
 }
+
+hr.star-light-2:after {
+    color: #fff;
+    background-color: #000000;
+}
+
 
 hr.star-primary {
     border-color: #{{ site.color.secondary }};
@@ -182,7 +188,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #000000;
 }
 
 @media(max-width:767px) {
@@ -473,7 +479,7 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: ##000000 !important;
+    background-color: #000000 !important;
 }
 
 /* Fix modal mouse wheel issues */
