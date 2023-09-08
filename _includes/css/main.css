@@ -74,11 +74,11 @@ hr.star-light-2:after {
 
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: #000000;
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }};
+    color: #000000;
     background-color: #fff;
 }
 
@@ -299,7 +299,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.primary }};
+    color: #000000;
     background: #fff;
 }
 
@@ -352,7 +352,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
+    color: #000000;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -369,7 +369,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #000000;
 }
 
 footer .footer-col {
@@ -462,7 +462,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #000000;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -472,7 +472,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #000000;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
